@@ -44,7 +44,7 @@ namespace Game1
             _player = new Player
             {
                 Name = "Aaron",
-                Speed = 3f
+                Speed = 200f
             };
 
             _camera.SetPosition(_player);
@@ -88,13 +88,13 @@ namespace Game1
             if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed || Keyboard.GetState().IsKeyDown(Keys.Escape))
                 Exit();
 
-            UpdatePlayer();
+            UpdatePlayer(gameTime);
             UpdateCamera();
 
             base.Update(gameTime);
         }
 
-        protected void UpdatePlayer()
+        protected void UpdatePlayer(GameTime gameTime)
         {
             var playerSpeed = _player.Speed;
 
@@ -114,11 +114,14 @@ namespace Game1
             if (Keyboard.GetState().IsKeyDown(Keys.Up)) yState--;
             if (Keyboard.GetState().IsKeyDown(Keys.Down)) yState++;
 
-            var newPlayerX = _player.Position.X + xState * playerSpeed;
-            var newPlayerY = _player.Position.Y + yState * playerSpeed;
-            var newPlayerPos = new Vector2(newPlayerX, newPlayerY);
+            if (xState != 0 || yState != 0)
+            {
+                var direction = new Vector2(xState, yState);
+                var xVelocity = direction * playerSpeed;
+                var yVelocity = yState * playerSpeed;
 
-            _player.Position = newPlayerPos;
+                _player.Position += direction * playerSpeed * (float)gameTime.ElapsedGameTime.TotalSeconds;
+            }
         }
 
         protected void UpdateCamera()
@@ -159,8 +162,8 @@ namespace Game1
 
             for (var i = 0; i < _level.TilesetTilePositions.Length; i++)
             {
-                var renderX = (i % 64) * tileSize - _camera.Position.X;
-                var renderY = (int)Math.Floor((double)i / 64) * tileSize - _camera.Position.Y;
+                var renderX = (int)((i % 64) * tileSize - (int)_camera.Position.X);
+                var renderY = (int)((int)Math.Floor((double)i / 64) * tileSize - (int)_camera.Position.Y);
 
                 var tilePosX = _level.TilesetTilePositions[i].X;
                 var tilePosY = _level.TilesetTilePositions[i].Y;
