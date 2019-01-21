@@ -1,0 +1,132 @@
+
+#----------------------------- Global Properties ----------------------------#
+
+/outputDir:bin/$(Platform)
+/intermediateDir:obj/$(Platform)
+/platform:DesktopGL
+/config:
+/profile:Reach
+/compress:False
+
+#-------------------------------- References --------------------------------#
+
+
+#---------------------------------- Content ---------------------------------#
+
+#begin Images/bomy_alma0.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Images/bomy_alma0.png
+
+#begin Images/bomy_birce0.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Images/bomy_birce0.png
+
+#begin Images/bomy_birce5.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Images/bomy_birce5.png
+
+#begin Images/bomy_draktha0.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Images/bomy_draktha0.png
+
+#begin Images/bomy_naifets0.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Images/bomy_naifets0.png
+
+#begin Images/Tiles/dot_tileset1.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Images/Tiles/dot_tileset1.png
+
+#begin Levels/bank.nw
+/copy:Levels/bank.nw
+
+#begin Levels/dotoffice.nw
+/copy:Levels/dotoffice.nw
+
+#begin Levels/dottest.nw
+/copy:Levels/dottest.nw
+
+#begin Levels/emera.nw
+/copy:Levels/emera.nw
+
+#begin Levels/inside2.nw
+/copy:Levels/inside2.nw
+
+#begin Levels/jail.nw
+/copy:Levels/jail.nw
+
+#begin Levels/lattest.nw
+/copy:Levels/lattest.nw
+
+#begin Levels/meleeshop.nw
+/copy:Levels/meleeshop.nw
+
+#begin Levels/mercyoffice.nw
+/copy:Levels/mercyoffice.nw
+
+#begin Levels/onlinestartlocal.nw
+/copy:Levels/onlinestartlocal.nw
+
+#begin Levels/shadowtest.nw
+/copy:Levels/shadowtest.nw
+
+#begin Levels/storm_house.nw
+/copy:Levels/storm_house.nw
+
+#begin Levels/test.nw
+/copy:Levels/test.nw
+
+#begin Levels/tileset.nw
+/copy:Levels/tileset.nw
+
+#begin Levels/tradingzone.nw
+/copy:Levels/tradingzone.nw
+
