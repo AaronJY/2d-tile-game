@@ -1,4 +1,5 @@
-﻿using Game1.Levels;
+﻿using Game1.Infrastructure;
+using Game1.Levels;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
@@ -20,6 +21,8 @@ namespace Game1
         Level _level;
         Camera _camera;
 
+        GameWorld _world;
+
         public Game1()
         {
             _graphics = new GraphicsDeviceManager(this);
@@ -38,90 +41,53 @@ namespace Game1
         /// </summary>
         protected override void Initialize()
         {
-            _camera = new Camera(_graphics.GraphicsDevice.Viewport);
-            _camera.SetZoom(1f);
-
-            _player = new Player
+            var player = new Player
             {
                 Name = "Aaron",
                 Speed = 200f
             };
 
-            _camera.SetPosition(_player);
+            _player = player;
+
+            // Setup camera
+            _camera = new Camera(_graphics.GraphicsDevice.Viewport);
+            _camera.SetZoom(1f);
+            _camera.SetPosition(player.Position);
+
+            // Setup world
+            _world = new GameWorld();
+            _world.AddGameObject(player);
 
             _level = Level.LoadFromFile("Content/Levels/storm_house.nw");
 
             base.Initialize();
         }
 
-        /// <summary>
-        /// LoadContent will be called once per game and is the place to load
-        /// all of your content.
-        /// </summary>
         protected override void LoadContent()
         {
-            // Create a new SpriteBatch, which can be used to draw textures.
             _spriteBatch = new SpriteBatch(GraphicsDevice);
 
             _tilesetTexture = Content.Load<Texture2D>("dot_tileset1");
-
-            //var cache = new ContentCache(Content);
-            //cache.Load();
         }
 
-        /// <summary>
-        /// UnloadContent will be called once per game and is the place to unload
-        /// game-specific content.
-        /// </summary>
         protected override void UnloadContent()
         {
             // TODO: Unload any non ContentManager content here
         }
 
-        /// <summary>
-        /// Allows the game to run logic such as updating the world,
-        /// checking for collisions, gathering input, and playing audio.
-        /// </summary>
-        /// <param name="gameTime">Provides a snapshot of timing values.</param>
         protected override void Update(GameTime gameTime)
         {
             if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed || Keyboard.GetState().IsKeyDown(Keys.Escape))
                 Exit();
 
-            UpdatePlayer(gameTime);
+            foreach (var gameObject in _world.GameObjects)
+            {
+                gameObject.Update(gameTime);
+            }
+
             UpdateCamera();
 
             base.Update(gameTime);
-        }
-
-        protected void UpdatePlayer(GameTime gameTime)
-        {
-            var playerSpeed = _player.Speed;
-
-            // Left control makes the player move faster
-            if (Keyboard.GetState().IsKeyDown(Keys.LeftControl))
-                playerSpeed = _player.Speed * 3;
-
-            // Implement x and y states to incorporate arrow keys cancelling
-            // each other out. This way, no arrow key takes priority over the other
-            // ex: Pressing left AND right will mean the character doesn't move at all
-            var xState = 0;
-            var yState = 0;
-
-            // Move player with arrow keys
-            if (Keyboard.GetState().IsKeyDown(Keys.Left)) xState--;
-            if (Keyboard.GetState().IsKeyDown(Keys.Right)) xState++;
-            if (Keyboard.GetState().IsKeyDown(Keys.Up)) yState--;
-            if (Keyboard.GetState().IsKeyDown(Keys.Down)) yState++;
-
-            if (xState != 0 || yState != 0)
-            {
-                var direction = new Vector2(xState, yState);
-                var xVelocity = direction * playerSpeed;
-                var yVelocity = yState * playerSpeed;
-
-                _player.Position += direction * playerSpeed * (float)gameTime.ElapsedGameTime.TotalSeconds;
-            }
         }
 
         protected void UpdateCamera()
@@ -130,10 +96,6 @@ namespace Game1
             _camera.SetPosition(newPos);
         }
 
-        /// <summary>
-        /// This is called when the game should draw itself.
-        /// </summary>
-        /// <param name="gameTime">Provides a snapshot of timing values.</param>
         protected override void Draw(GameTime gameTime)
         {
             // Clear everything
@@ -141,19 +103,16 @@ namespace Game1
 
             _spriteBatch.Begin();
 
+            foreach (var gameObject in _world.GameObjects)
+            {
+                gameObject.Draw(GraphicsDevice, _spriteBatch, gameTime);
+            }
+
             DrawLevel(gameTime);
-            DrawPlayer(gameTime);
 
             _spriteBatch.End();
 
             base.Draw(gameTime);
-        }
-
-        protected void DrawPlayer(GameTime gameTime)
-        {
-            var playerRect = new Texture2D(GraphicsDevice, 1, 1, false, SurfaceFormat.Color);
-            playerRect.SetData<Color>(new Color[] { Color.White });
-            _spriteBatch.Draw(playerRect, new Rectangle(_graphics.PreferredBackBufferWidth / 2, _graphics.PreferredBackBufferHeight / 2, 32, 32), Color.White);
         }
 
         protected void DrawLevel(GameTime gameTime)

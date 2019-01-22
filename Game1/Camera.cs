@@ -1,4 +1,5 @@
-﻿using Microsoft.Xna.Framework;
+﻿using Game1.Infrastructure;
+using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using System;
 using System.Collections.Generic;
@@ -32,7 +33,7 @@ namespace Game1
             Position = newPosition;
         }
 
-        public void SetPosition(TangibleEntity entity)
+        public void SetPosition(IGameObject entity)
         {
             Position = entity.Position;
         }

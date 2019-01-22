@@ -50,7 +50,8 @@
     <Compile Include="Camera.cs" />
     <Compile Include="ContentCache.cs" />
     <Compile Include="Enums\Direction.cs" />
-    <Compile Include="TangibleEntity.cs" />
+    <Compile Include="Infrastructure\IGameObject.cs" />
+    <Compile Include="Infrastructure\IGameWorld.cs" />
     <Compile Include="Game1.cs" />
     <Compile Include="Helpers\TileHelpers.cs" />
     <Compile Include="Levels\Level.cs" />
@@ -58,6 +59,7 @@
     <Compile Include="Player.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Infrastructure\GameWorld.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="MonoGame.Framework">
