@@ -1,11 +1,8 @@
 ﻿using Game1.Helpers;
 using Microsoft.Xna.Framework;
-using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Game1.Levels
 {
@@ -24,13 +21,13 @@ namespace Game1.Levels
             TilesetTilePositions = GetTilesetTilePositions(tiles).ToArray();
         }
 
-        public static Level LoadFromFile(string path)
+        public void LoadFromFile(string path)
         {
             var str = File.ReadAllText(path);
-            return LoadFromString(str);
+            LoadFromString(str);
         }
 
-        public static Level LoadFromString(string levelString)
+        public void LoadFromString(string levelString)
         {
             var level = new Level();
 
@@ -54,9 +51,7 @@ namespace Game1.Levels
                 rowIndex++;
             }
 
-            level.SetTiles(tiles);
-
-            return level;
+            SetTiles(tiles);
         }
 
         protected static IEnumerable<Point> GetTilesetTilePositions(Tile[,] tiles)

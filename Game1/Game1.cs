@@ -17,9 +17,9 @@ namespace Game1
         GraphicsDeviceManager _graphics;
         SpriteBatch _spriteBatch;
         Player _player;
-        Texture2D _tilesetTexture;
         Level _level;
         Camera _camera;
+        Texture2D _tilesetTexture;
 
         GameWorld _world;
 
@@ -58,7 +58,9 @@ namespace Game1
             _world = new GameWorld();
             _world.AddGameObject(player);
 
-            _level = Level.LoadFromFile("Content/Levels/storm_house.nw");
+            // Setup level
+            _level = new Level();
+            _level.LoadFromFile("Content/Levels/storm_house.nw");
 
             base.Initialize();
         }
@@ -103,12 +105,12 @@ namespace Game1
 
             _spriteBatch.Begin();
 
+            DrawLevel(gameTime);
+
             foreach (var gameObject in _world.GameObjects)
             {
                 gameObject.Draw(GraphicsDevice, _spriteBatch, gameTime);
             }
-
-            DrawLevel(gameTime);
 
             _spriteBatch.End();
 

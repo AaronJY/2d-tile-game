@@ -55,7 +55,7 @@ namespace Game1
 
         public void Draw(GraphicsDevice graphicsDevice, SpriteBatch spriteBatch, GameTime gameTime)
         {
-            var playerRect = new Texture2D(graphicsDevice, 1, 1, false, SurfaceFormat.Single);
+            var playerRect = new Texture2D(graphicsDevice, 1, 1, false, SurfaceFormat.Color);
             playerRect.SetData<Color>(new Color[] { Color.White });
 
             var desinationRect = new Rectangle(graphicsDevice.Viewport.Width / 2, graphicsDevice.Viewport.Height / 2, 32, 32);
