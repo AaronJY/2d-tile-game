@@ -16,6 +16,7 @@ namespace Game1
 
         public HUD(SpriteFont font)
         {
+            _font = font;
         }
 
         public void Draw(GraphicsDevice graphicsDevice, SpriteBatch spriteBatch, GameTime gameTime)

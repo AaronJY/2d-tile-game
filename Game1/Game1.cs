@@ -43,6 +43,23 @@ namespace Game1
         /// </summary>
         protected override void Initialize()
         {
+            base.Initialize();
+        }
+
+        protected override void LoadContent()
+        {
+            _spriteBatch = new SpriteBatch(GraphicsDevice);
+            _font = Content.Load<SpriteFont>("Fonts/defaultFont");
+
+            _tilesetTexture = Content.Load<Texture2D>("Images/Tiles/pics1");
+
+            GameConsole.Log("Content loaded");
+
+            Setup();
+        }
+
+        protected void Setup()
+        {
             var player = new Player
             {
                 Name = "Aaron",
@@ -66,19 +83,9 @@ namespace Game1
 
             // Setup HUD
             _hud = new HUD(_font);
+            _hud.LevelName = "onlinestartlocal";
 
-            GameConsole.Log("Woot! The game has started!");
-            GameConsole.Log("And this is the second message!");
-
-            base.Initialize();
-        }
-
-        protected override void LoadContent()
-        {
-            _spriteBatch = new SpriteBatch(GraphicsDevice);
-            _font = Content.Load<SpriteFont>("Fonts/defaultFont");
-
-            _tilesetTexture = Content.Load<Texture2D>("Images/Tiles/pics1");
+            GameConsole.Log("Setup finished");
         }
 
         protected override void UnloadContent()
@@ -121,7 +128,6 @@ namespace Game1
             }
 
             _hud.Draw(GraphicsDevice, _spriteBatch, gameTime);
-
             GameConsole.Draw(GraphicsDevice, _spriteBatch, _font, gameTime);
 
             _spriteBatch.End();
