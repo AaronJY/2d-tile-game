@@ -1,0 +1,840 @@
+GLEVNW01
+BOARD 0 0 64 0 J4J4J4J4J4J4mI6s6smJJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4mI6s6smJJ4J4J4J4J4J4
+BOARD 0 1 64 0 J4J4J4J4J4J46dmImJ6q6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6rmImJ6cJ4J4J4J4J4J4
+BOARD 0 2 64 0 J4J4J4J4J4J46d8+8/6a6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t8/iLiL8+6t6t6t6t6t6b8+8/6cJ4J4J4J4J4J4
+BOARD 0 3 64 0 J4J4J4J4J4J48+6b6a8/Yv8+8/Yva3Yv8+8/Yva3a2Yv8+8/YvYv484848484848484848484848YvYv8+8/Yva3a2YvibibYva3Yv8+8/Yv8+6b6a8/J4J4J4J4J4J4
+BOARD 0 4 64 0 J4J4J4J4J4J4Cg6d6cCDYvbcbdYvNqYviLiLYvNqNqYvAQAyYvYv484848484848484848484848YvYvCKCLYvNqNqYv7P7PYvNqYv0hG0YvCg6d6cCDJ4J4J4J4J4J4
+BOARD 0 5 64 0 J4J4J4J4J4J4Cg6d6cCDYvAiAjYvNqYviLiLYvNqNqYvAAABYvYv484848484848484848484848YvYvCaCbYvNqNqYv7f7fYvNqYv0xb3YvCg6d6cCDJ4J4J4J4J4J4
+BOARD 0 6 64 0 J4J4J4J4J4J4Cg6d6cCDYvCRCRYvN6YvibibYvN6N6YvCRCRYvYv484848484848484848484848YvYvCRCRYvN6N6Yv7v7vYvN6YvCRCRYvCg6d6cCDJ4J4J4J4J4J4
+BOARD 0 7 64 0 J4J4J4J4J4J4Cw6d6cCTibjdibjdibjdibnGcdcdcdcdKpKq6d6c4848484848484848484848486d6cKpKqnlcdcdipiqcdcdcdcdcdnmnWCw6d6cCTJ4J4J4J4J4J4
+BOARD 0 8 64 0 J4J4J4J4J4J4J46d6ckpjckpjckpjckpjcnGcdcdcdcdK5K66d6c4s5a5b48484848GuGv4t4s4t6d6cK5K6nGcdip6/6/iqcdcdcdnmn3jckp6d6cJ4J4J4J4J4J4J4
+BOARD 0 9 64 0 J4J4J4J4J4J4J46d6cjdibjdibjdibjdnkn3cdcdcdcdcdcd6d6cFSFCFC4s48GuGvG+G/4dFCFC6d6ckpjcnHcdip6/6/iqcdcdnmn3jdibjd6d6cJ4J4J4J4J4J4J4
+BOARD 0 10 64 0 J4J4J4J4J4J4J46d6ckpjckpjcnknWnWn3cdcdcdcdcdcdcd6d6cFCFCFCFC4sG+G/48484tFCFC6d6cjdibnGcdip6/6/6/iqcdnGjckpjckp6d6cJ4J4J4J4J4J4J4
+BOARD 0 11 64 0 J4J4J4J4J4J4J46d6cjdibjdnkn3cdcdcdcdcdcdcdcdnknX6d6c4dFCFCFC4c484t4s4tFDFE4c6d6ckpjcnHip6/6/6/6/6/iqnHibjdibjd6d6cJ4J4J4J4J4J4J4
+BOARD 0 12 64 0 J4J4J4J4J4J4J46d6ckpjckpnGcdcdcdcdcdcdcdnmnWKpKq6d6q6s6s6smJ4s4tFCFCmI6s6s6s6r6cKpKqn0nWnnip6/6/6/iqn0nWnnjckp6d6cJ4J4J4J4J4J4J4
+BOARD 0 13 64 0 J4J4J4J4J4J4J46d6cjdibjdnGcdcdcdcdcdcdcdnGjcK5K68+6t6t6t6b6cHVHWFCFC6d6a6t6t6t8/K5K6kpjcnHip6/6/6/6/6/iqn2nXnW6d6cJ4J4J4J4J4J4J4
+BOARD 0 14 64 0 J4J4J4J4J4J4J46d6ckpjcnkn3cdcdcdcdcdcdcdn2nnjdibCwN6N7N66d6cHlHmHVHW6d6cN7N6N6CTjdibjdibnGcdip6/6/6/iqcdcdcdcd6d6cJ4J4J4J4J4J4J4
+BOARD 0 15 64 0 J4J4J4J4J4J4J46d6cnWnWn3cdcdipiqcdcdcdcdcdnHkpjckpjcKpKq6d6cFCFCHlHm6d6cKpKqkpjckpjcnmnWn1cdip6/6/iqcdcdcdcdcd6d6cJ4J4J4J4J4J4J4
+BOARD 0 16 64 0 J4J4J4J4J4J4J46d6ccdcdcdcdip6/6/iqcdcdcdcdnGjdibjdibK5K66d6c4dFCFC4c6d6cK5K6jdibjdibnGcdcdcdcdipiqcdcdcdcdcdcd6d6cJ4J4J4J4J4J4J4
+BOARD 0 17 64 0 J4J4J4J4J4J4J46d6ccdcdcdip6/6/6/6/6/iqcdcdn2nXnlkpjckpjc6d6q6s6s6s6s6r6ckpjckpjckpjcnHcdcdcdcdcdcdcdcdcdcdcdcd6d6cJ4J4J4J4J4J4J4
+BOARD 0 18 64 0 J4J4J4J4J4J4J46d6ccdcdip6/6/6/6/6/6/6/6/6/iqyDnGjdibjdib8+6t6t6t6t6t6t8/jdibjdnmnWnXn3cdcdcdcdcdcdcdcdcdcdcdcd6d6cJ4J4J4J4J4J4J4
+BOARD 0 19 64 0 J4J4J4J4J4J4J46d6ccdip6/6/6/6/6/6/6/6/iqyCxyyCn2nXnWnXnWCwN6N7N6N7N6N6CTnXnWnXn3cdcdcdcdcdcdcdcdcdcdcdcdcdcdcd6d6cJ4J4J4J4J4J4J4
+BOARD 0 20 64 0 J4J4J4J4J4J4J46d6ccdcdip6/6/BABBBBBBBHxzyDxzyDxzyDxzyDxzyDxzyDip6/6/6/6/6/6/6/iqcdcdcdcdcdBABBBBBBBHcdcdcdcdcd6d6cJ4J4J4J4J4J4J4
+BOARD 0 21 64 0 J4J4J4J4J4J4J46d6cnlcdcdcdipBQBRBRBRBXiqyCxyyCxyyCxyyCxyyCxyyCip6/6/6/6/6/6/6/iqcdcdcdcdcdBQBRBRBRBXcdcdcdcdcd6d6cJ4J4J4J4J4J4J4
+BOARD 0 22 64 0 J4J4J4J4J4J4J46d6cn0nXnlcdcdCQCRCRCRBzxzyDxzyDxzyDxzyDxzyDxzip6/6/6/6/6/6/6/6/iqcdcdcdcdcdCQCRCRCRBzcdcdcdcdcd6d6cJ4J4J4J4J4J4J4
+BOARD 0 23 64 0 J4J4J4J4J4J4J46d6cibjdn0nlcdCwN6N6N7CTxyyCxyyCxyyCxyyCxyyCxyyCip6/6/6/6/6/iqcdcdcdcdcdcdcdCwN6N6N7CTcdcdcdcdcd6d6cJ4J4J4J4J4J4J4
+BOARD 0 24 64 0 J4J4J4J4J4J4J46d6cjckpjcn0nlip6/6/6/iqxzyDxzyDxzyDxzyDxzyDxzyDip6/6/6/6/6/iqcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdnknX6d6cJ4J4J4J4J4J4J4
+BOARD 0 25 64 0 J4J4J4J4J4J4J46d6cibjdibjdnGip6/6/6/iqxyyCxyyCxyyCxyyCxyyCxyip6/6/6/6/6/6/6/6/6/iqcdcdcdcdcdcdcdcdcdcdcdnkn1kp6d6cJ4J4J4J4J4J4J4
+BOARD 0 26 64 0 J4J4J4J4J4J4J46d6cjckpjckpnHip6/6/6/iqxzyDxzyDxzyDxzyDxzyDxznmnXnXnn6/6/6/6/6/6/iqcdcdcdcdcdcdcdcdcdnmnWn1ibjd6d6cJ4J4J4J4J4J4J4
+BOARD 0 27 64 0 J4J4J4J4J4J4J46d6cibjdibjdn0nWnnipiqyCxyyCxyyCxyyCxyyCxyyCxynHnInJnGip6/6/6/iqcdcdcdcdcdcdcdcdcdcdcdnGjckpjckp6d6cJ4J4J4J4J4J4J4
+BOARD 0 28 64 0 J4J4J4J4J4J4J46d6cjckpjckpjckpnHyDxzyDxzyDxzyDxzyDxzyDxzyDxznHnYnZnGip6/6/6/iqcdcdcdcdcdcdcdcdcdcdcdn2nnjdibjd6d6cJ4J4J4J4J4J4J4
+BOARD 0 29 64 0 J4J4J4J4J4J4J46d6cibjdibjdibjdnGyCxyyCxyyCxyyCxyyCxyyCxyyCxyn2nWnWn36/6/6/iqcdcdcdcdcdcdcdcdcdcdcdcdcdnHkpjckp6d6cJ4J4J4J4J4J4J4
+BOARD 0 30 64 0 J4J4J4J4J4J4J46d6cjcKpKqkpnmnWn1yDxzyDxzyDxzyDxzyDxzyDxzyDxzyDxzyDxzip6/iqcdcdcdcdcdcdcdcdcdcdcdcdcdcdnGKpKqjd6d6cJ4J4J4J4J4J4J4
+BOARD 0 31 64 0 J4J4J4J4J4J4J46d6cibK5K6jdnGyCxyyCxyyCxyyCxyyCxyyCxyyCxyyCxyyCxyyCxyip6/iqcdcdcdcdcdcdcdcdcdcdcdcdcdcdn2K5K6kp6d6cJ4J4J4J4J4J4J4
+BOARD 0 32 64 0 J4J4J4J4J4J4J46d6cLJLJLKKrKpKqxzyDxzyDxzyDxzyDxzyDxzyDxzyDxzyDxzyDxzyDipiqcdcdcdcdcdcdcdcdcdcdcdcdKpKqLILJLKLK6d6cJ4J4J4J4J4J4J4
+BOARD 0 33 64 0 J4J4J4J4J4J4mI6r6qmJLZLaK7K5K6xyyCxyyCxyyCxyyCxyyCmI6s6smJxyyCxyyCnmnWmI6s6smJcdcdcdcdcdcdcdcdcdcdK5K6LYLZLamI6r6qmJJ4J4J4J4J4J4
+BOARD 0 34 64 0 J4J4J4J4J4J46dmImJ6q6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6rmImJ6cxzyDxznmn3kp6dmImJ6q6s6s6s6s6s6s6s6s6s6s6s6s6s6s6s6rmImJ6cJ4J4J4J4J4J4
+BOARD 0 35 64 0 J4J4J4J4J4J46d8+8/6a6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6b8+8/6cxyyCnmn3ibjd6d8+8/6a6t6t6t6t6t6t6t6t6t6t6t6t6t6t6t6b8+8/6cJ4J4J4J4J4J4
+BOARD 0 36 64 0 J4J4J4J4J4J48+6t6t8/a1Yfa3a2a3a2Yfa3a2Yfa3a2a3a2Yf8+6b6a8/xzyDnGkpjckp8+6b6a8/a1Yfa3a2a3a2Yfa3a2Yfa3a2a3a2Yf8+6t6t8/J4J4J4J4J4J4
+BOARD 0 37 64 0 J4J4J4J4J4J4CgNqNrCDNrYvNqNrNqNqYvNrNqYvNqNrNqNqYvCg6d6cCDxyyCnHjdibjdCg6d6cCDNrYvNqNrNqNqYvNrNqYvNqNrNqNqYvCgNqNrCDJ4J4J4J4J4J4
+BOARD 0 38 64 0 J4J4J4J4J4J4CgNqNrCDNrYvNqNrNqNqYvNrNqYvNqNrNqNqYvCg6d6cCDxzyDn0nWnnkpCg6d6cCDNrYvNqNrNqNqYvNrNqYvNqNrNqNqYvCgNqNrCDJ4J4J4J4J4J4
+BOARD 0 39 64 0 J4J4J4J4J4J4CgNqNrCDN7YvN6N7N6N6YvN7N6YvN6N7N6N6YvCg6d6cCDxyyCxynkn1jdCg6d6cCDN7YvN6N7N6N6YvN7N6YvN6N7N6N6YvCgNqNrCDJ4J4J4J4J4J4
+BOARD 0 40 64 0 J4J4J4J4J4J4CwN6N7CTJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4Cw6d6cCTxzyDnkn1jckpCw6d6cCTJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4CwN6N7CTJ4J4J4J4J4J4
+BOARD 0 41 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J46d6cnWnXnWn1jdibjdib6d6cJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 42 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J46d6ckpjckpjckpjckpjc6d6cJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 43 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J46d6cjdibjdibjdibjdib6d6cJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 44 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J46d6ckpjckpjckpjckpjc6d6cJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 45 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J46d6cjdibjdibjdibnknX6d6cJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 46 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J46d6ckpjckpjckpnkn1k36d6cJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 47 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4mI6r6qmJibjdibnkn1k3mI6r6qmJJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 48 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J46dmImJ6q6s6s6s6s6s6s6rmImJ6cJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 49 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J46d8+8/6a6t6t6t6t6t6t6b8+8/6cJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 50 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J48+6t6t8/NqYvYvYvYvNr8+6t6t8/J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 51 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4CgNqNrCDNqYv8+8/YvNrCgNqNrCDJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 52 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4CgNqNrCDNqYviLiLYvNrCgNqNrCDJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 53 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4CgNqNrCDN6YvibibYvN7CgNqNrCDJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 54 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4CwN6N7CTJ4J4J4J4J4J4CwN6N7CTJ4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 55 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 56 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 57 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 58 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 59 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 60 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 61 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 62 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+BOARD 0 63 64 0 J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4J4
+LINK onlinestart.nw 46 2 2 1 33 53
+LINK corinthia_f5.nw 31 48 2 1 36.5 48
+NPC pottedplant.png 28 17
+// NPC made by DreadExile
+//#CLIENTSIDE
+{setimg pottedplant.png;
+NPCEND
+NPC - 61 7
+//#CLIENTSIDE
+{noplayerkilling}
+//#CLIENTSIDE
+if (playerenters){
+  enableweapons;
+}
+NPCEND
+NPC windowframe.png 11 4
+// NPC made by Exil R. (LAT)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC - 32 2
+// NPC made by Stowen
+//#CLIENTSIDE
+if (playerenters) {
+  showtext 1,x,y,tempus sans itc,bc,Welcome to Rastafaria!;
+  changeimgzoom 1,1;
+  timeout=.1;
+}
+if (timeout) {
+  changeimgcolors 1,this.color,0,1,1;
+  if (this.mode=0) this.color+=.1;
+  if (this.mode=1) this.color-=.1;
+  if (this.color=0) this.mode=0;
+  if (this.color=1) this.mode=1;
+  timeout=.1;
+}
+NPCEND
+NPC - 28 5
+//#CLIENTSIDE
+if(created) {
+         drawaslight;
+  this.numdots = 20;
+  setcoloreffect 0,0,0,.9;
+  setarray this.dots,this.numdots*5;
+  for(i=0;i<this.numdots;i++;) {
+    int();
+  }
+}
+if(playerenters || timeout) {
+  timereverywhere;
+  timeout = 0.05;
+  for(i=0;i<arraylen(this.dots)/5;i++;) {
+    showimg i,light2.png,x-4+this.dots[i*5]+sin(3.14/24*this.dots[i*5+2] + (3.14/6))*(this.dots[i*5+3])/5,y-4+cos(3.14/24*this.dots[i*5+2] + (3.14/6))*4;
+           //Size
+    changeimgzoom i,.2;
+           //Color
+    changeimgcolors i,0,0,random(0,.9),.4;
+    changeimgvis i,1;
+    this.dots[i*5+2] += this.dots[i*5+4];
+           //Height
+    if(this.dots[i*5+2] >= 8) {
+      int();
+    }
+  }
+
+}
+
+function int() {
+       //Upwards life
+  this.dots[i*5] = random(-1.8,-0.2);
+  this.dots[i*5+1] = 0;
+  this.dots[i*5+2] = 0;
+  this.dots[i*5+3] = (int(random(-.4,1.4)) == 0? -1: 1);
+       //Speed of upwards
+  this.dots[i*5+4] = random(.1,.3);
+}
+NPCEND
+NPC light2.png 7 31
+// NPC made by Stefan Knorr
+//#CLIENTSIDE
+if (created) {
+  setimgpart light2.png,60,0,10,60;
+  dontblock;
+  timeout = .1;
+}
+if (timeout) {
+  setcoloreffect random(0,2),random(0,2),random(0,2),random(0.4,0.99);
+  drawaslight;
+  x=x+.7;
+}
+NPCEND
+NPC - 15 5
+// NPC made by Stowen
+//#CLIENTSIDE
+if (created) {
+  timeout=.05;
+  x=x+1;
+  y=y;
+}
+
+if (playerenters || timeout) {
+  if (this.mode==0) {
+    this.head=0;
+    showimg 1,head0.png,x,y;
+    changeimgpart 1,0,64,32,32;
+    showtext 2,x+1,y-.5,,cb,Heads;
+    changeimgcolors 2,1,2,0,1;
+    changeimgzoom 2,.75;
+    hideimg 5;
+  }
+  if (this.mode==1) {
+    showimg 1,head#v(this.head).png,x,y;
+    changeimgpart 1,0,64,32,32;
+    showtext 2,x+1,y-.5,,c,head#v(this.head).png;
+    showtext 5,playerx+1,playery+3,,c,DOWN to exit - S to set;
+    changeimgcolors 2,1,2,0,1;
+    changeimgcolors 5,0,2,0,1;
+    changeimgzoom 2,.6;
+  }
+  if (playerx in |x-4.5,x+3.5| && playery in |y+1,y+2|) {
+    playersprite = 0;
+    playerx = x-.5;
+    playery = y+2;
+    disabledefmovement;
+    this.mode = 1;
+  }
+  if (keydown(2) && this.mode==1) {
+    playery+=.2;
+    enabledefmovement;
+    this.mode=0;
+  }
+  if (keydown(1) && this.mode==1) {
+    if (this.head==0) {
+      this.head=1400;
+    }
+    this.head --;
+    play nextpage.wav;
+    sleep .1;
+  }
+  if (keydown(3) && this.mode==1) {
+    if (this.head==1400) {
+      this.head=-1
+    }
+    this.head ++;
+    play nextpage.wav;
+    sleep .1;
+  }
+  if (keydown(6) || keydown(4)) {
+    if (this.mode==1) {
+      setplayerprop #3,head#v(this.head).png;
+    }
+  }
+  timeout=.05;
+}
+
+if(playerchats){
+  if(startswith(/head,#c)){
+    tokenize #c;
+    this.head=strtofloat(#t(1));
+  }
+}
+drawunderplayer; dontblock;
+NPCEND
+NPC block.png 31 27
+join( "player_warp" );
+//#CLIENTSIDE
+function onCreated()
+{
+this.location = "Main House";
+this.locationid = "osl";
+}
+NPCEND
+NPC waterfalldown.gif 26 3
+//#CLIENTSIDE
+NPCEND
+NPC waterfalldown.gif 30 3
+//#CLIENTSIDE
+NPCEND
+NPC waterfalldown.gif 34 3
+//#CLIENTSIDE
+NPCEND
+NPC pottedplant.png 28 12
+// NPC made by DreadExile
+//#CLIENTSIDE
+{setimg pottedplant.png;
+NPCEND
+NPC pottedplant.png 24 12
+// NPC made by DreadExile
+//#CLIENTSIDE
+{setimg pottedplant.png;
+NPCEND
+NPC pottedplant.png 38 12
+// NPC made by DreadExile
+//#CLIENTSIDE
+{setimg pottedplant.png;
+NPCEND
+NPC pottedplant.png 34 12
+// NPC made by DreadExile
+//#CLIENTSIDE
+{setimg pottedplant.png;
+NPCEND
+NPC pottedplant.png 34 17
+// NPC made by DreadExile
+//#CLIENTSIDE
+{setimg pottedplant.png;
+NPCEND
+NPC pottedplant.png 52 32
+// NPC made by DreadExile
+//#CLIENTSIDE
+{setimg pottedplant.png;
+NPCEND
+NPC pottedplant.png 10 32
+// NPC made by DreadExile
+//#CLIENTSIDE
+{setimg pottedplant.png;
+NPCEND
+NPC windowframe.png 40 4
+// NPC made by Exil R. (LAT)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC windowframe.png 51 4
+// NPC made by Exil R. (LAT)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC windowframe.png 22 4
+// NPC made by Exil R. (LAT)
+if (created) {
+}
+if (playertouchsme) {
+}
+NPCEND
+NPC doorlighttop.png 9 4
+// NPC made by Stefan Knorr
+if (created) {
+  setimg doorlighttop.png;
+  dontblock;
+}
+//#CLIENTSIDE
+if (playerenters) {
+  setcoloreffect 1,1,1,0.5;
+  drawaslight;
+}
+NPCEND
+NPC doorlighttop.png 20 4
+// NPC made by Stefan Knorr
+if (created) {
+  setimg doorlighttop.png;
+  dontblock;
+}
+//#CLIENTSIDE
+if (playerenters) {
+  setcoloreffect 1,1,1,0.5;
+  drawaslight;
+}
+NPCEND
+NPC doorlighttop.png 38 4
+// NPC made by Stefan Knorr
+if (created) {
+  setimg doorlighttop.png;
+  dontblock;
+}
+//#CLIENTSIDE
+if (playerenters) {
+  setcoloreffect 1,1,1,0.5;
+  drawaslight;
+}
+NPCEND
+NPC doorlighttop.png 49 4
+// NPC made by Stefan Knorr
+if (created) {
+  setimg doorlighttop.png;
+  dontblock;
+}
+//#CLIENTSIDE
+if (playerenters) {
+  setcoloreffect 1,1,1,0.5;
+  drawaslight;
+}
+NPCEND
+NPC light2.png 55 31
+// NPC made by Stefan Knorr
+//#CLIENTSIDE
+if (created) {
+  setimgpart light2.png,60,0,10,60;
+  dontblock;
+  timeout = .1;
+}
+if (timeout) {
+  setcoloreffect random(0,2),random(0,2),random(0,2),random(0.4,0.99);
+  drawaslight;
+  x=x+.7;
+}
+NPCEND
+NPC light2.png 55 62
+// NPC made by Stefan Knorr
+//#CLIENTSIDE
+if (created) {
+  setimgpart light2.png,60,0,10,60;
+  dontblock;
+  timeout = .1;
+}
+if (timeout) {
+  setcoloreffect random(0,2),random(0,2),random(0,2),random(0.4,0.99);
+  drawaslight;
+  x=x+.7;
+}
+NPCEND
+NPC light2.png 7 62
+// NPC made by Stefan Knorr
+//#CLIENTSIDE
+if (created) {
+  setimgpart light2.png,60,0,10,60;
+  dontblock;
+  timeout = .1;
+}
+if (timeout) {
+  setcoloreffect random(0,2),random(0,2),random(0,2),random(0.4,0.99);
+  drawaslight;
+  x=x+.7;
+}
+NPCEND
+NPC light2.png 26 31
+// NPC made by Stefan Knorr
+//#CLIENTSIDE
+if (created) {
+  setimgpart light2.png,60,0,10,60;
+  dontblock;
+  timeout = .1;
+}
+if (timeout) {
+  setcoloreffect random(0,2),random(0,2),random(0,2),random(0.4,0.99);
+  drawaslight;
+  x=x+.7;
+}
+NPCEND
+NPC light2.png 36 31
+// NPC made by Stefan Knorr
+//#CLIENTSIDE
+if (created) {
+  setimgpart light2.png,60,0,10,60;
+  dontblock;
+  timeout = .1;
+}
+if (timeout) {
+  setcoloreffect random(0,2),random(0,2),random(0,2),random(0.4,0.99);
+  drawaslight;
+  x=x+.7;
+}
+NPCEND
+NPC light2.png 26 45
+// NPC made by Stefan Knorr
+//#CLIENTSIDE
+if (created) {
+  setimgpart light2.png,60,0,10,60;
+  dontblock;
+  timeout = .1;
+}
+if (timeout) {
+  setcoloreffect random(0,2),random(0,2),random(0,2),random(0.4,0.99);
+  drawaslight;
+  x=x+.7;
+}
+NPCEND
+NPC light2.png 36 45
+// NPC made by Stefan Knorr
+//#CLIENTSIDE
+if (created) {
+  setimgpart light2.png,60,0,10,60;
+  dontblock;
+  timeout = .1;
+}
+if (timeout) {
+  setcoloreffect random(0,2),random(0,2),random(0,2),random(0.4,0.99);
+  drawaslight;
+  x=x+.7;
+}
+NPCEND
+NPC - 30 5
+//#CLIENTSIDE
+if(created) {
+         drawaslight;
+  this.numdots = 20;
+  setcoloreffect 0,0,0,.9;
+  setarray this.dots,this.numdots*5;
+  for(i=0;i<this.numdots;i++;) {
+    int();
+  }
+}
+if(playerenters || timeout) {
+  timereverywhere;
+  timeout = 0.05;
+  for(i=0;i<arraylen(this.dots)/5;i++;) {
+    showimg i,light2.png,x-4+this.dots[i*5]+sin(3.14/24*this.dots[i*5+2] + (3.14/6))*(this.dots[i*5+3])/5,y-4+cos(3.14/24*this.dots[i*5+2] + (3.14/6))*4;
+           //Size
+    changeimgzoom i,.2;
+           //Color
+    changeimgcolors i,0,0,random(0,.9),.4;
+    changeimgvis i,1;
+    this.dots[i*5+2] += this.dots[i*5+4];
+           //Height
+    if(this.dots[i*5+2] >= 8) {
+      int();
+    }
+  }
+
+}
+
+function int() {
+       //Upwards life
+  this.dots[i*5] = random(-1.8,-0.2);
+  this.dots[i*5+1] = 0;
+  this.dots[i*5+2] = 0;
+  this.dots[i*5+3] = (int(random(-.4,1.4)) == 0? -1: 1);
+       //Speed of upwards
+  this.dots[i*5+4] = random(.1,.3);
+}
+NPCEND
+NPC - 32 5
+//#CLIENTSIDE
+if(created) {
+         drawaslight;
+  this.numdots = 20;
+  setcoloreffect 0,0,0,.9;
+  setarray this.dots,this.numdots*5;
+  for(i=0;i<this.numdots;i++;) {
+    int();
+  }
+}
+if(playerenters || timeout) {
+  timereverywhere;
+  timeout = 0.05;
+  for(i=0;i<arraylen(this.dots)/5;i++;) {
+    showimg i,light2.png,x-4+this.dots[i*5]+sin(3.14/24*this.dots[i*5+2] + (3.14/6))*(this.dots[i*5+3])/5,y-4+cos(3.14/24*this.dots[i*5+2] + (3.14/6))*4;
+           //Size
+    changeimgzoom i,.2;
+           //Color
+    changeimgcolors i,0,0,random(0,.9),.4;
+    changeimgvis i,1;
+    this.dots[i*5+2] += this.dots[i*5+4];
+           //Height
+    if(this.dots[i*5+2] >= 8) {
+      int();
+    }
+  }
+
+}
+
+function int() {
+       //Upwards life
+  this.dots[i*5] = random(-1.8,-0.2);
+  this.dots[i*5+1] = 0;
+  this.dots[i*5+2] = 0;
+  this.dots[i*5+3] = (int(random(-.4,1.4)) == 0? -1: 1);
+       //Speed of upwards
+  this.dots[i*5+4] = random(.1,.3);
+}
+NPCEND
+NPC - 34 5
+//#CLIENTSIDE
+if(created) {
+         drawaslight;
+  this.numdots = 20;
+  setcoloreffect 0,0,0,.9;
+  setarray this.dots,this.numdots*5;
+  for(i=0;i<this.numdots;i++;) {
+    int();
+  }
+}
+if(playerenters || timeout) {
+  timereverywhere;
+  timeout = 0.05;
+  for(i=0;i<arraylen(this.dots)/5;i++;) {
+    showimg i,light2.png,x-4+this.dots[i*5]+sin(3.14/24*this.dots[i*5+2] + (3.14/6))*(this.dots[i*5+3])/5,y-4+cos(3.14/24*this.dots[i*5+2] + (3.14/6))*4;
+           //Size
+    changeimgzoom i,.2;
+           //Color
+    changeimgcolors i,0,0,random(0,.9),.4;
+    changeimgvis i,1;
+    this.dots[i*5+2] += this.dots[i*5+4];
+           //Height
+    if(this.dots[i*5+2] >= 8) {
+      int();
+    }
+  }
+
+}
+
+function int() {
+       //Upwards life
+  this.dots[i*5] = random(-1.8,-0.2);
+  this.dots[i*5+1] = 0;
+  this.dots[i*5+2] = 0;
+  this.dots[i*5+3] = (int(random(-.4,1.4)) == 0? -1: 1);
+       //Speed of upwards
+  this.dots[i*5+4] = random(.1,.3);
+}
+NPCEND
+NPC - 36 5
+//#CLIENTSIDE
+if(created) {
+         drawaslight;
+  this.numdots = 20;
+  setcoloreffect 0,0,0,.9;
+  setarray this.dots,this.numdots*5;
+  for(i=0;i<this.numdots;i++;) {
+    int();
+  }
+}
+if(playerenters || timeout) {
+  timereverywhere;
+  timeout = 0.05;
+  for(i=0;i<arraylen(this.dots)/5;i++;) {
+    showimg i,light2.png,x-4+this.dots[i*5]+sin(3.14/24*this.dots[i*5+2] + (3.14/6))*(this.dots[i*5+3])/5,y-4+cos(3.14/24*this.dots[i*5+2] + (3.14/6))*4;
+           //Size
+    changeimgzoom i,.2;
+           //Color
+    changeimgcolors i,0,0,random(0,.9),.4;
+    changeimgvis i,1;
+    this.dots[i*5+2] += this.dots[i*5+4];
+           //Height
+    if(this.dots[i*5+2] >= 8) {
+      int();
+    }
+  }
+
+}
+
+function int() {
+       //Upwards life
+  this.dots[i*5] = random(-1.8,-0.2);
+  this.dots[i*5+1] = 0;
+  this.dots[i*5+2] = 0;
+  this.dots[i*5+3] = (int(random(-.4,1.4)) == 0? -1: 1);
+       //Speed of upwards
+  this.dots[i*5+4] = random(.1,.3);
+}
+NPCEND
+NPC - 38 5
+//#CLIENTSIDE
+if(created) {
+         drawaslight;
+  this.numdots = 20;
+  setcoloreffect 0,0,0,.9;
+  setarray this.dots,this.numdots*5;
+  for(i=0;i<this.numdots;i++;) {
+    int();
+  }
+}
+if(playerenters || timeout) {
+  timereverywhere;
+  timeout = 0.05;
+  for(i=0;i<arraylen(this.dots)/5;i++;) {
+    showimg i,light2.png,x-4+this.dots[i*5]+sin(3.14/24*this.dots[i*5+2] + (3.14/6))*(this.dots[i*5+3])/5,y-4+cos(3.14/24*this.dots[i*5+2] + (3.14/6))*4;
+           //Size
+    changeimgzoom i,.2;
+           //Color
+    changeimgcolors i,0,0,random(0,.9),.4;
+    changeimgvis i,1;
+    this.dots[i*5+2] += this.dots[i*5+4];
+           //Height
+    if(this.dots[i*5+2] >= 8) {
+      int();
+    }
+  }
+
+}
+
+function int() {
+       //Upwards life
+  this.dots[i*5] = random(-1.8,-0.2);
+  this.dots[i*5+1] = 0;
+  this.dots[i*5+2] = 0;
+  this.dots[i*5+3] = (int(random(-.4,1.4)) == 0? -1: 1);
+       //Speed of upwards
+  this.dots[i*5+4] = random(.1,.3);
+}
+NPCEND
+NPC - 46 19
+function onCreated()
+{
+  showcharacter();
+  this.ani = "idle";
+  this.bodyimg = "body5.png";
+  this.headimg = "stowen_head2.png";
+  this.shieldimg = "longtie-shield.png";
+  this.attr[1] = "hat00.gif";
+  this.colors[0] = "orange"; // Skin
+  this.colors[1] = "black"; // Coat
+  this.colors[2] = "black"; // Sleeves
+  this.colors[3] = "black"; // Shoes
+  this.colors[4] = "white"; // Belt
+  this.nick = "*Stowen";
+  this.ap = 100;
+  this.chat = "";
+  this.join("npc_target");
+}
+NPCEND
+NPC sign.png 46 23
+// NPC made by Stowen
+//#CLIENTSIDE
+
+function onCreated() {
+  this.x = this.x+0.5;
+  this.join("say3");
+}
+
+function onPlayerTouchsMe() {
+  say3("Stowen
+Owner & Manager of Corinthia.");
+}
+NPCEND
+NPC amz_chair.png 40 7
+//#Comments Basic red chair to cover pics1 chair.
+// NPC made by Stowen
+//#CLIENTSIDE
+function onCreated() {
+setimg("amz_chair.png");
+dontblock();
+drawunderplayer();
+}
+NPCEND
+NPC amz_chair.png 40 12
+//#Comments Basic red chair to cover pics1 chair.
+// NPC made by Stowen
+//#CLIENTSIDE
+function onCreated() {
+setimg("amz_chair.png");
+dontblock();
+drawunderplayer();
+}
+NPCEND
+NPC amz_chair.png 22 7
+//#Comments Basic red chair to cover pics1 chair.
+// NPC made by Stowen
+//#CLIENTSIDE
+function onCreated() {
+setimg("amz_chair.png");
+dontblock();
+drawunderplayer();
+}
+NPCEND
+NPC amz_chair.png 36 15
+//#Comments Basic red chair to cover pics1 chair.
+// NPC made by Stowen
+//#CLIENTSIDE
+function onCreated() {
+setimg("amz_chair.png");
+dontblock();
+drawunderplayer();
+}
+NPCEND
+NPC amz_chair.png 26 15
+//#Comments Basic red chair to cover pics1 chair.
+// NPC made by Stowen
+//#CLIENTSIDE
+function onCreated() {
+setimg("amz_chair.png");
+dontblock();
+drawunderplayer();
+}
+NPCEND
+NPC amz_chair.png 22 12
+//#Comments Basic red chair to cover pics1 chair.
+// NPC made by Stowen
+//#CLIENTSIDE
+function onCreated() {
+setimg("amz_chair.png");
+dontblock();
+drawunderplayer();
+}
+NPCEND
+NPC amz_chair.png 10 30
+//#Comments Basic red chair to cover pics1 chair.
+// NPC made by Stowen
+//#CLIENTSIDE
+function onCreated() {
+setimg("amz_chair.png");
+dontblock();
+drawunderplayer();
+}
+NPCEND
+NPC amz_chair.png 13 32
+//#Comments Basic red chair to cover pics1 chair.
+// NPC made by Stowen
+//#CLIENTSIDE
+function onCreated() {
+setimg("amz_chair.png");
+dontblock();
+drawunderplayer();
+}
+NPCEND
+NPC amz_chair.png 49 32
+//#Comments Basic red chair to cover pics1 chair.
+// NPC made by Stowen
+//#CLIENTSIDE
+function onCreated() {
+setimg("amz_chair.png");
+dontblock();
+drawunderplayer();
+}
+NPCEND
+NPC amz_chair.png 52 30
+//#Comments Basic red chair to cover pics1 chair.
+// NPC made by Stowen
+//#CLIENTSIDE
+function onCreated() {
+setimg("amz_chair.png");
+dontblock();
+drawunderplayer();
+}
+NPCEND
+NPC - 15 19
+function onCreated()
+{
+  showcharacter();
+  this.ani = "idle";
+  this.bodyimg = "gund_body_2.png";
+  this.headimg = "gund-head.gif";
+  this.shieldimg = "longtie-shield.png";
+  this.attr[1] = "hat206.png";
+  this.colors[0] = "orange"; // Skin
+  this.colors[1] = "white"; // Coat
+  this.colors[2] = "black"; // Sleeves
+  this.colors[3] = "black"; // Shoes
+  this.colors[4] = "gray"; // Belt
+  this.nick = "*Gunderak";
+  this.ap = 100;
+  this.chat = "";
+  this.join("npc_target");
+}
+NPCEND
+NPC sign.png 15 23
+// NPC made by Stowen
+//#CLIENTSIDE
+
+function onCreated() {
+  this.x = this.x+0.5;
+  this.join("say3");
+}
+
+function onPlayerTouchsMe() {
+  say3("Gunderak
+Asst. Manager of Corinthia.");
+}
+NPCEND
+NPC sign.png 31 19
+// NPC made by Stowen
+//#CLIENTSIDE
+
+function onCreated() {
+  this.chat = "IMPORTANT";
+  this.join("say3");
+}
+
+function onPlayerTouchsMe() {
+  say3("Since so many people don't understand that staff tools are for STAFF ONLY I am forced to make this rule and enforce it the best I can.
+If you are not staff, DO NOT ask for any of the staff tools.
+If you do, you will recieve 1 day in jail. If you do it again you will be banned for 7 days.
+THIS IS YOUR ONLY WARNING!");
+}
+NPCEND
+NPC  41 24
+//#CLIENTSIDE
+if (created) {
+freezeplayer(0.05);
+}
+NPCEND

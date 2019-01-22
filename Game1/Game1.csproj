@@ -48,8 +48,9 @@
     <Compile Include="Animations\Sprite.cs" />
     <Compile Include="Animations\SpriteDefinition.cs" />
     <Compile Include="Camera.cs" />
-    <Compile Include="ContentCache.cs" />
+    <Compile Include="GameConsole.cs" />
     <Compile Include="Enums\Direction.cs" />
+    <Compile Include="HUD.cs" />
     <Compile Include="Infrastructure\IGameObject.cs" />
     <Compile Include="Infrastructure\IGameWorld.cs" />
     <Compile Include="Game1.cs" />
@@ -66,7 +67,6 @@
       <HintPath>$(MonoGameInstallDirectory)\MonoGame\v3.0\Assemblies\DesktopGL\MonoGame.Framework.dll</HintPath>
     </Reference>
     <Reference Include="System" />
-    <Reference Include="System.Drawing" />
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>

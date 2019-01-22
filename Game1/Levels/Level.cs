@@ -1,5 +1,7 @@
 ﻿using Game1.Helpers;
 using Microsoft.Xna.Framework;
+using Microsoft.Xna.Framework.Graphics;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -67,6 +69,25 @@ namespace Game1.Levels
             }
 
             return points;
+        }
+
+        public void Draw(GraphicsDevice graphicsDevice, SpriteBatch spriteBatch, Camera camera, Texture2D tilesetTexture, GameTime gameTime)
+        {
+            var tileSize = 16 * camera.Zoom;
+
+            for (var i = 0; i < TilesetTilePositions.Length; i++)
+            {
+                var renderX = (int)((i % 64) * tileSize - (int)camera.Position.X);
+                var renderY = (int)((int)Math.Floor((double)i / 64) * tileSize - (int)camera.Position.Y);
+
+                var tilePosX = TilesetTilePositions[i].X;
+                var tilePosY = TilesetTilePositions[i].Y;
+
+                spriteBatch.Draw(
+                    tilesetTexture,
+                    new Vector2(renderX, renderY),
+                    new Rectangle(tilePosX, tilePosY, 16, 16), Color.White, 0, Vector2.Zero, camera.Zoom, SpriteEffects.None, 0);
+            }
         }
     }
 }

@@ -20,6 +20,8 @@ namespace Game1
         Level _level;
         Camera _camera;
         Texture2D _tilesetTexture;
+        SpriteFont _font;
+        HUD _hud;
 
         GameWorld _world;
 
@@ -29,8 +31,8 @@ namespace Game1
             Content.RootDirectory = "Content";
 
             _graphics.IsFullScreen = false;
-            _graphics.PreferredBackBufferWidth = 1000;
-            _graphics.PreferredBackBufferHeight = 800;
+            _graphics.PreferredBackBufferWidth = 1200;
+            _graphics.PreferredBackBufferHeight = 900;
         }
 
         /// <summary>
@@ -60,7 +62,13 @@ namespace Game1
 
             // Setup level
             _level = new Level();
-            _level.LoadFromFile("Content/Levels/storm_house.nw");
+            _level.LoadFromFile("Content/Levels/corinthia/onlinestartlocation.nw");
+
+            // Setup HUD
+            _hud = new HUD(_font);
+
+            GameConsole.Log("Woot! The game has started!");
+            GameConsole.Log("And this is the second message!");
 
             base.Initialize();
         }
@@ -68,8 +76,9 @@ namespace Game1
         protected override void LoadContent()
         {
             _spriteBatch = new SpriteBatch(GraphicsDevice);
+            _font = Content.Load<SpriteFont>("Fonts/defaultFont");
 
-            _tilesetTexture = Content.Load<Texture2D>("dot_tileset1");
+            _tilesetTexture = Content.Load<Texture2D>("Images/Tiles/pics1");
         }
 
         protected override void UnloadContent()
@@ -100,17 +109,20 @@ namespace Game1
 
         protected override void Draw(GameTime gameTime)
         {
-            // Clear everything
             GraphicsDevice.Clear(Color.Black);
 
             _spriteBatch.Begin();
 
-            DrawLevel(gameTime);
+            _level.Draw(GraphicsDevice, _spriteBatch, _camera, _tilesetTexture, gameTime);
 
             foreach (var gameObject in _world.GameObjects)
             {
                 gameObject.Draw(GraphicsDevice, _spriteBatch, gameTime);
             }
+
+            _hud.Draw(GraphicsDevice, _spriteBatch, gameTime);
+
+            GameConsole.Draw(GraphicsDevice, _spriteBatch, _font, gameTime);
 
             _spriteBatch.End();
 
@@ -119,21 +131,7 @@ namespace Game1
 
         protected void DrawLevel(GameTime gameTime)
         {
-            var tileSize = 16 * _camera.Zoom;
-
-            for (var i = 0; i < _level.TilesetTilePositions.Length; i++)
-            {
-                var renderX = (int)((i % 64) * tileSize - (int)_camera.Position.X);
-                var renderY = (int)((int)Math.Floor((double)i / 64) * tileSize - (int)_camera.Position.Y);
-
-                var tilePosX = _level.TilesetTilePositions[i].X;
-                var tilePosY = _level.TilesetTilePositions[i].Y;
-
-                _spriteBatch.Draw(
-                    _tilesetTexture,
-                    new Vector2(renderX, renderY),
-                    new Rectangle(tilePosX, tilePosY, 16, 16), Color.White, 0, Vector2.Zero, _camera.Zoom, SpriteEffects.None, 0);
-            }
+            
         }
     }
 }

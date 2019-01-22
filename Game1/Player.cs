@@ -21,6 +21,8 @@ namespace Game1
             Direction = Direction.Down;
             Speed = 0.8f;
             Position = Vector2.Zero;
+
+            GameConsole.Log("Player has been constructed!");
         }
 
         public void Update(GameTime gameTime)

@@ -13,6 +13,13 @@
 
 #---------------------------------- Content ---------------------------------#
 
+#begin Fonts/defaultFont.spritefont
+/importer:FontDescriptionImporter
+/processor:LocalizedFontProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Compressed
+/build:Fonts/defaultFont.spritefont
+
 #begin Images/bomy_alma0.png
 /importer:TextureImporter
 /processor:TextureProcessor
@@ -85,8 +92,26 @@
 /processorParam:TextureFormat=Color
 /build:Images/Tiles/dot_tileset1.png
 
+#begin Images/Tiles/pics1.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Images/Tiles/pics1.png
+
 #begin Levels/bank.nw
 /copy:Levels/bank.nw
+
+#begin Levels/corinthia/onlinestartlocal.nw
+/copy:Levels/corinthia/onlinestartlocal.nw
+
+#begin Levels/corinthia/onlinestartlocation.nw
+/copy:Levels/corinthia/onlinestartlocation.nw
 
 #begin Levels/dotoffice.nw
 /copy:Levels/dotoffice.nw
